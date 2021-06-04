@@ -1,0 +1,135 @@
+/****** BASE STYLES ******/
+
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****** GRID ******/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 338px;
+}
+
+/****** HEADER ******/
+
+header h1 {
+    font-size: 30px;
+    line-height: 23px;
+    margin: 48px 0 40px 0;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: left;
+    margin: 33px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/****** TOP SECTION ******/
+
+#top-sec #hero-img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+#top-sec h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 25px auto;
+    text-transform: uppercase;
+}
+
+#top-sec p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+/****** BOTTOM SECTION ******/
+
+#bot-sec .third-width {
+    height: 160px;
+    padding: 30px;
+}
+
+#bot-sec .third-width h3 {
+    font-size: 12px;
+    line-height: 25px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#bot-sec .third-width ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#bot-sec .third-width ul li a {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#bot-sec .third-width p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
+#bot-sec #sec-1, #sec-3 {
+    border-bottom: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+}
+
+#bot-sec #sec-2 {
+    border: 1px solid #dedbdc;
+}
+
+/****** FOOTER ******/
+
+footer p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 25px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer p span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+}
