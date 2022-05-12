@@ -1,4 +1,5 @@
 /****** BASE STYLES ******/
+
 html {
     font-size: 16px;
 }
@@ -8,21 +9,24 @@ body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
 }
 
-/****** GRID ******/
-
-.full-width {
-    margin: 0 auto;
-    width: 1200px;
+section, footer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.half-width {
-    width: 600px;
-}
-
-.third-width {
-    width: 338px;
+.column {
+    max-width: 338px;
+    border-top: 1px solid #dedbdc;
 }
 
 /****** HEADER ******/
@@ -30,27 +34,32 @@ body {
 header h1 {
     font-size: 1.875em;
     line-height: 1.438em;
-    margin: 48px 0 40px 0;
     text-transform: uppercase;
+    border-bottom: 3px solid #77a466;
+    padding: 0 1em 0.5em 1em;
 }
 
 header h1 span {
     color: #77a466;
 }
 
-nav {
-    margin: 33px 0 0 0;
+header h1, nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
+    padding: 1em;
 }
 
 nav ul li a {
     color: #77a466;
     font-size: 0.875em;
     font-weight: 700;
-    padding-left: 24px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -58,6 +67,7 @@ nav ul li a {
 /****** TOP SECTION ******/
 
 #top-sec #hero-img {
+    width: 100%;
     border-bottom: 3px solid #77a466;
     border-top: 3px solid #77a466;
 }
@@ -66,55 +76,48 @@ nav ul li a {
     color: #77a466;
     font-size: 1.125em;
     line-height: 1.438em;
-    margin: 25px auto;
+    margin: 1.389em auto;
     text-transform: uppercase;
+    text-align: left;
 }
 
 #top-sec p {
     font-size: 1em;
     line-height: 1.563em;
-    margin-bottom: 35px;
+    margin: 0 0 2.188em 0;
 }
 
 /****** BOTTOM SECTION ******/
 
-#bot-sec .third-width {
-    padding: 30px;
+#bot-sec .column {
+    padding: 1.875em;
 }
 
-#bot-sec .third-width h3 {
+#bot-sec .column h3 {
     font-size: 0.75em;
     line-height: 1.563em;
     margin: 0;
     text-transform: uppercase;
 }
 
-#bot-sec .third-width ul {
+#bot-sec .column ul {
     list-style: none;
     padding-left: 0;
 }
 
-#bot-sec .third-width ul li a {
+#bot-sec .column ul li a {
     color: #77a466;
     font-size: 1em;
     line-height: 2.5em;
     text-decoration: none;
 }
 
-#bot-sec .third-width p {
+#bot-sec .column p {
     font-size: 1em;
     line-height: 1.313em;
     margin-bottom: 0;
 }
 
-#bot-sec #sec-1, #sec-3 {
-    border-bottom: 1px solid #dedbdc;
-    border-top: 1px solid #dedbdc;
-}
-
-#bot-sec #sec-2 {
-    border: 1px solid #dedbdc;
-}
 
 /****** FOOTER ******/
 
@@ -122,7 +125,7 @@ footer p {
     font-size: 1em;
     font-weight: 700;
     line-height: 1.438em;
-    margin: 25px auto;
+    margin: 1.563em auto;
     text-align: center;
     text-transform: uppercase;
 }
