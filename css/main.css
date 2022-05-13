@@ -25,6 +25,7 @@ section, footer {
 }
 
 .column {
+    width: 100%;
     max-width: 338px;
     border-top: 1px solid #dedbdc;
 }
@@ -90,7 +91,7 @@ nav ul li a {
 /****** BOTTOM SECTION ******/
 
 #bot-sec .column {
-    padding: 1.875em;
+    padding: 1.875em 0;
 }
 
 #bot-sec .column h3 {
@@ -118,6 +119,9 @@ nav ul li a {
     margin-bottom: 0;
 }
 
+#bot-sec #col-1 {
+    padding-bottom: 0;
+}
 
 /****** FOOTER ******/
 
