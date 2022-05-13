@@ -33,7 +33,7 @@ section, footer {
 /****** HEADER ******/
 
 header h1 {
-    font-size: 1.875em;
+    font-size: 1.5em; /*1.875em*/
     line-height: 1.438em;
     text-transform: uppercase;
     border-bottom: 3px solid #77a466;
@@ -139,4 +139,10 @@ footer p span {
     font-family: 'Galada', cursive;
     font-weight: 400;
     text-transform: lowercase;
+}
+
+/****** STYLES FOR TABLET ******/
+
+@media screen and (min-width: 768px) {
+    
 }
