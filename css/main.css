@@ -137,7 +137,7 @@ footer p {
       font-size: 1em;
       font-weight: 700;
       line-height: 1.438em;
-      margin: 1.563em auto;
+      margin: 1.563em auto 0 auto;
       text-align: center;
       text-transform: uppercase;
 }
