@@ -171,3 +171,22 @@ footer p span {
           border-right: 1px solid #dedbdc;
     }
 }
+
+/****** STYLES FOR DESKTOP ******/
+
+@media only screen and (min-width: 1024px) {
+    header {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    header h1 {
+        border: none;
+        margin: 1.25em 0 0 0;
+    }
+}
